@@ -83,9 +83,177 @@ while True:
         print("=========================================")
 
     print("""
-    1) Turke Sandwiches
+    1) Turkey Sandwiches
     2) French Fries
     3) Crossaint
     4) Fruit Salad""")
 
     sopt = input("Your Snack Option is: ")
+
+    time.sleep(1)
+    if sopt == '1':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: Turey Sandwiches")
+        time.sleep(1)
+        print("This will cost: £2.50")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+    
+    if sopt == '2':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: French Fries")
+        time.sleep(1)
+        print("This will cost: £2.10")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+
+    if sopt == '3':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: Crossaint")
+        time.sleep(1)
+        print("This will cost: £1.50")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+    
+    if sopt == '4':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: French Fries")
+        time.sleep(1)
+        print("This will cost: £2.00")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+    breakpoint()
+
+
+    if opt == 'c':
+        print("=========================================")
+        print("You hav chosen: Desert Options")
+        print("=========================================")
+
+    print("""
+    1) Ice Cream
+    2) Caramel Cake
+    3) Chocolate Brownie
+    4) Strawberry Donut""")
+
+    dopt = input("Your Desert Option is: ")
+
+    time.sleep(1)
+    if dopt == '1':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: Ice Cream")
+        time.sleep(1)
+        print("This will cost: £1.90")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+    
+    if dopt == '2':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: Caramel Cake")
+        time.sleep(1)
+        print("This will cost: £2.00")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+
+    if dopt == '3':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: Chocolate Brownie")
+        time.sleep(1)
+        print("This will cost: £1.50")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+    
+    if dopt == '4':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: Strawberry Donut")
+        time.sleep(1)
+        print("This will cost: £1.90")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+    breakpoint()
+
+
+
+    if opt == 'd':
+        print("=========================================")
+        print("You hav chosen: Drink Options")
+        print("=========================================")
+
+    print("""
+    1) Milkshake
+    2) Smoothie
+    3) Hot Chocolate
+    4) Ice Tea
+    5) Soda""")
+
+    sopt = input("Your Drink Option is: ")
+    #Putting bopt instead of dopt because then we'd have two and it would get mixed up with drink and desert
+    #The b in bopt just stands for beverage instead
+
+    time.sleep(1)
+    if bopt == '1':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: Milkshake")
+        time.sleep(1)
+        print("This will cost: £2.50")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+    
+    if bopt == '2':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: Smoothie")
+        time.sleep(1)
+        print("This will cost: £2.45")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+
+    if bopt == '3':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: Hot Chocolate")
+        time.sleep(1)
+        print("This will cost: £2.50")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+    
+    if bopt == '4':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: Ice Tea")
+        time.sleep(1)
+        print("This will cost: £2.00")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+    
+    if bopt == '5':
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print("You have chosen: Soda")
+        time.sleep(1)
+        print("This will cost: £1.10")
+        print("+++++++++++++++++++++++++++++++++++++++++")
+        print()
+        print("**************************************************")
+
+    breakpoint()
